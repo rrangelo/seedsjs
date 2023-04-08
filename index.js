@@ -1,4 +1,4 @@
 'use strict'
-const Seed = require('./lib/seeds');
+const Seed = require('./lib/seed');
 
 module.exports = Seed;

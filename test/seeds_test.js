@@ -1,5 +1,5 @@
 'use strict';
-const Seeds = require('./../lib/seeds');
+const Seeds = require('./../lib/seed');
 const assert = require('assert');
 const EmptyNameError = require('./../lib/errors/empty_name_error');
 const EmptySeedError = require('./../lib/errors/empty_seed_error');
