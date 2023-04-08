@@ -1,0 +1,65 @@
+{
+    "source": "./lib",
+    "destination": "./docs",
+    "includes": [
+        "\\.js$",
+        "^lib/core/.*\\.js$",
+        "^lib/errors/.*\\.js$",
+        "^lib/prototypes/.*\\.js$"
+    ],
+    "excludes": [],
+    "plugins": [
+        {
+            "name": "esdoc-standard-plugin",
+            "option": {
+                "enable": true,
+                "outputEach": true,
+                "parser": {
+                    "experimentalProposal": {
+                        "enable": true
+                    }
+                },
+                "lint": {
+                    "enable": true
+                },
+                "coverage": {
+                    "enable": true
+                },
+                "undocumentIdentifier": {
+                    "enable": true,
+                    "access": true
+                },
+                "unexportedIdentifier": {
+                    "enable": false
+                },
+                "typeInference": {
+                    "enable": true
+                },
+                "brand": {
+                    "title": "SeedsJS",
+                    "description": "A prototype object definer",
+                    "repository": "https://github.com/rrangelo/seedsjs",
+                    "site": "https://github.com/rrangelo/seedsjs",
+                    "author": "https://github.com/rrangelo"
+                },
+                "test": {
+                    "source": "./test/",
+                    "interfaces": [
+                        "describe",
+                        "it",
+                        "context",
+                        "suite",
+                        "test"
+                    ],
+                    "includes": [
+                        "(test|Test)\\.js$"
+                    ],
+                    "excludes": [
+                        "\\.config\\.js$"
+                    ]
+                }
+            }
+        }
+    ],
+    "outputEach": true
+}
