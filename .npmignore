@@ -1,0 +1,15 @@
+.github
+node_modules
+.nyc_output
+coverage
+example
+test
+.gitignore
+package-lock.json
+sonar-project.properties
+.sonarcloud.properties
+.npmignore
+.git
+.eslintrc.json
+jsdoc.conf.json
+docs

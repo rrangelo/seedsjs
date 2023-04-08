@@ -1,0 +1,39 @@
+{
+  "name": "seedsjs",
+  "version": "1.0.0",
+  "description": "A prototipe extension util functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=text --reporter=lcov mocha --recursive",
+    "docs": "esdoc -c .esdoc.json"
+  },
+  "keywords": [
+    "prototypes"
+  ],
+  "author": "Ramon Rangel Osorio <ramon.rangel@protonmail.com> (https://ve.linkedin.com/in/rrangelo)",
+  "license": "MIT",
+  "devDependencies": {
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrangelo/seedsjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rrangelo/seedsjs/issues"
+  },
+  "homepage": "https://github.com/rrangelo/seedsjs#readme"
+}
