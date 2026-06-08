@@ -12,7 +12,7 @@ const Create = () => {
     
     console.log('');
     console.log('Create BaseSeed:');
-    base = BaseSeed.create();console.log(BaseSeed.prototype.getBases()[0].prototype);
+    base = BaseSeed.create();console.log('BaseSeed bases:', BaseSeed.prototype.getBases());
     console.log('BaseSeed:', base);
     console.log('BaseSeed Name:    ', base.name);
     console.log('BaseSeed Age:     ', base.age);
@@ -35,7 +35,7 @@ const Create = () => {
     
     console.log('');
     console.log('Create BasedSeed:');
-    based = BasedSeed.create();console.log(BasedSeed.prototype.getBases()[0].prototype);
+    based = BasedSeed.create();console.log('BasedSeed bases:', BasedSeed.prototype.getBases());
     console.log('BasedSeed:', based);
     console.log('BasedSeed Name:      ', based.name);
     console.log('BasedSeed Gender:    ', based.gender);
